@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>View Expenses</title>
+</head>
+<body>
+    <h1>All Expenses</h1>
+    <table>
+        <tr>
+            <th>Date</th>
+            <th>Description</th>
+            <th>Amount</th>
+            <th>Action</th>
+        </tr>
+        {% for expense in expenses %}
+        <tr>
+            <td>{{ expense[1] }}</td>
+            <td>{{ expense[2] }}</td>
+            <td>{{ expense[3] }}</td>
+            <td><a href="/delete/{{ expense[0] }}">Delete</a></td>
+        </tr>
+        {% endfor %}
+    </table>
+    <a href="/">Add New Expense</a>
+</body>
+</html>

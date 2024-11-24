@@ -1,0 +1,2 @@
+runtime: python39  # Specifies Python 3.9 runtime
+entrypoint: python app.py  # Command to start your Flask app
