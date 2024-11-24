@@ -1,6 +1,3 @@
-# personal-expense-tracker
-A web application to track personal expenses using google cloud.
-# Personal Expense Tracker
 
 A web application for tracking personal expenses using Google Cloud.
 
